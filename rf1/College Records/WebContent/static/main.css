@@ -1,0 +1,74 @@
+body {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+}
+
+.login-area {
+    font-size: 13px;
+    position: relative;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.login-link {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+.login-link:visited {
+    color: #0088cc;
+}
+
+.login-link:hover {
+    text-decoration: none;
+}
+
+.menu-area {
+    font-size: 15px;
+    position: relative;
+}
+
+.menu-link {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+.menu-link:visited {
+    color: #0088cc;
+}
+
+.menu-link:hover {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+}
+
+.main-title {
+	color: #0088cc;
+    text-decoration: none;
+}
+
+.main-title:hover{
+	color: #0088cc;
+    text-decoration: none;
+}
+
+.main-title:visited{
+	color: #0088cc;
+    text-decoration: none;
+}
+
+.table th,
+.table td {
+    text-align: center;
+	vertical-align: center;
+}
+

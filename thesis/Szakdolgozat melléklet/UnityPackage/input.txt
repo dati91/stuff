@@ -1,0 +1,6 @@
+Shift - left shift
+Spell1 - q
+Spell2 - w
+Leave - x
+AddBot - pgup
+RemoveBot - pgdn
