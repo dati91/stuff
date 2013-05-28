@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+   <h2>new page: {{url}}</h2>
+   <br>
+   <form method="post">
+      <div>page content:</div>
+      <textarea name="content"
+                style="height: 400px; width: 500px;">{{content}}</textarea>
+      <br>
+      <input type="submit">
+    </form>
+{% endblock %}

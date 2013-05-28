@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+  {% for p in pages %}
+  <tr>
+    <td>
+        {{ p.created}}
+    </td>
+    <td>
+        {{ p.content}}
+    </td>
+    <td>
+    <a class="login-link" href="/_edit{{p.url}}?rev={{p.revision}}">edit</a>
+    </td>
+    <td>
+    <a class="login-link" href="{{p.url}}?rev={{p.revision}}">view</a>
+    </td>
+    <br>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
